@@ -48,8 +48,9 @@
 
 
 
+//　※thisで使ったapp.cssは一旦全てコメントアウトし、HTMLを変更している程。
 // 「children」
-//　app.cssは一旦全て削除しており、HTMLを変更している
+
 
 $(function(){
   $('button').on('click', function(){
