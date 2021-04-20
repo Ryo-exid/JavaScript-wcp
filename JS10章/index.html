@@ -45,3 +45,18 @@
 
 
 <!-- bodyの終了タグの直前で、jquery.min.jsファイルとscript.jsファイルを読み込んでいます。 -->
+
+
+
+
+<!-- 
+.toggleClass()は、指定されているclass（ここではactive）をトグル処理するメソッドです。
+トグル処理では、該当のclass属性がある場合にはclassが削除され、ない場合にはclassが追加されます。
+
+<a class="menu-trigger" href="#">
+aタグのclassにはmenu-triggerが指定され、activeは指定されていません。
+このときに.toggleClass()を設定すると、アイコンがクリックされたときにactiveクラスが追加され、もう一度クリックすると削除されます。
+このように、.toggleClass()によって、class属性の追加と削除が交互に行われます。
+
+さらに、.menu-trigger.active span:nth-child(1)～(3)の各CSSによって、activeクラスになったときにアイコンが「×」になるように設定されています。
+ -->
