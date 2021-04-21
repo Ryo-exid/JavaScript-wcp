@@ -8,6 +8,7 @@ $(function() {
 
 
 
+
 // 今回の「マウスクリック」イベントの設定を見ていくことにしましょう。
 
 // $('.menu-trigger').on('click', function(event) {
