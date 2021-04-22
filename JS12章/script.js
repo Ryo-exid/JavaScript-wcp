@@ -1,8 +1,8 @@
-$(function(){
-  $('#btn').on('click', function() {
+// $(function(){
+//   $('#btn').on('click', function() {
 
-  });
-});
+//   });
+// });
 
 
 // 「検索」ボタンは、index.htmlファイルで<button id="btn">で設定しているので、script.jsファイルでは$('#btn')で取得します。
@@ -77,7 +77,7 @@ $(function(){
 
 
 // （API_KEY には、"取得したAPIキー" を記述）
-API_KEY = "取得したAPIキー";
+API_KEY = "af0ecf3f95303e8951c8f6de85c9ee9d";
 
 $(function(){
   $('#btn').on('click', function() {
@@ -103,6 +103,7 @@ $(function(){
       $('img').attr("src","http://openweathermap.org/img/w/" + data.weather[0].icon + ".png");
       $('img').attr("alt",data.weather[0].main);    }).fail(function (data) {
       //通信失敗
+      alert('通信に失敗しました。');
     });
   });
 });
